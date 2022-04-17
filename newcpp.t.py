@@ -4,7 +4,7 @@ import unittest
 from unittest.case import expectedFailure
 import newcpp
 
-"""
+
 class TestGenerateFunctions(unittest.TestCase):
     def test_generateHeaderFile(self):
         namespace = "rollingstone"
@@ -55,7 +55,6 @@ class TestGenerateImpCppFile(unittest.TestCase):
         date = "May 1st, 2021"
         content = newcpp.generateImpCppFile(namespace, classname, authorinfo, date)
         print(content)
-"""
 
 class TestGenerateMockHeaderFile(unittest.TestCase):
     def test_generateMockHeaderFile(self):
